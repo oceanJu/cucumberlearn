@@ -1,0 +1,87 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#  Scenario Outline: Successful Login with Valid Credentials"
+          },
+          {
+            "line": 4,
+            "value": "#    Given User is on Home Page"
+          },
+          {
+            "line": 5,
+            "value": "#    When User Navigate to LogIn Page"
+          },
+          {
+            "line": 6,
+            "value": "#    And User enters \u003cusername\u003e and \u003cpassword\u003e"
+          },
+          {
+            "line": 7,
+            "value": "#    Then Message displayed Login Successfully"
+          },
+          {
+            "line": 8,
+            "value": "#"
+          },
+          {
+            "line": 9,
+            "value": "#    Examples:"
+          },
+          {
+            "line": 10,
+            "value": "#      |username|password|"
+          },
+          {
+            "line": 11,
+            "value": "#      |orson|zhu15913141134|"
+          }
+        ],
+        "line": 14,
+        "name": "Successfully pay for the bill",
+        "description": "",
+        "id": "login-action;successfully-pay-for-the-bill",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "I rent a house",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "Today is the end of the month",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "I need to pay the bill",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Action",
+    "description": "",
+    "id": "login-action",
+    "keyword": "Feature",
+    "uri": "LogIn_Test.feature"
+  }
+]
